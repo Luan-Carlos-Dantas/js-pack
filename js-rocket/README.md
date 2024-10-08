@@ -1,8 +1,8 @@
 # Javascript
   ## Comentários
   `//comentário de uma única linha` ou `/*comentário de multíplas linhas*/`
-  \CASE SENSITIVE: Sensível a letras maiúscula e minúsculas
-  \HOISTING: Comportamento que faz com que a linguagem mova as declarações para o topo do escopo que foram definidas
+  CASE SENSITIVE: Sensível a letras maiúscula e minúsculas
+  HOISTING: Comportamento que faz com que a linguagem mova as declarações para o topo do escopo que foram definidas
 
   ## Variavéis
   `let`, `const`, `var` \
@@ -19,7 +19,7 @@
     ```javascript
       var example
     ```
-  \As variáveis possuem seus escopos definidos, que definem o contexto delas, que definem onde determinada viariável pode ou não ser acessada:
+  As variáveis possuem seus escopos definidos, que definem o contexto delas, que definem onde determinada viariável pode ou não ser acessada:
   - global: Podem ser declaradas fora de qualquer função ou bloco de código (var)
   - bloco: Somente são acessíveis dentro do bloco de código que foram declaradas (let / const)
 
@@ -28,12 +28,12 @@
   - `number`;
   - `boolean`;
   - `null`;
-  _ `undefined`;
+  - `undefined`;
   - `array`;
-  _ `object`;
+  - `object`;
   - `map`
 
-  \RECOMENDAÇÕES:
+  RECOMENDAÇÕES:
   - Utilize o nome das variáveis em inglês;
   - Não utilize caracteres especiais, acentuações ou espaçamentos;
   - Crie nomes que dão sentido para variável;
