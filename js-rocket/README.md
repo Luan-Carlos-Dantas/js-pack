@@ -50,11 +50,13 @@
     - ** = POTENCIAÇÃO
 
   ### OPERADORES DE INCREMENTO E DECREMENTO:
-    - ```javascript
-      let variavel++ || ++variavel
+    - Incremento
+      ```javascript
+        let variavel++ || ++variavel
       ```
-    - ```javascript
-      let variavel-- || --variavel
+    - Decremento
+      ```javascript
+        let variavel-- || --variavel
       ```
   ### OPERADORES LÓGICOS:
     - == - igual a (valores iguais sem distinção de tipos de variáveis)
@@ -66,9 +68,23 @@
     - < - menor que
     - <= - menor ou igual a
     - <> - diferente
+    - && - and
+    - || - or
+    - ! - not
 
   ### OPERADORES DE ATRIBUIÇÃO:
     - = - atribuindo um valor
     - += - incrmento do valor
     - -= - decremento do valor
     - *= - multiplica o valor
+    - /= - divide o valor
+
+  ## CONDICIONAIS
+  ### ESTRUTURA DE CONDIÇÃO
+  ```javascript
+  if(condição){
+    console.log("Verdadeiro")
+  }else{
+    console.log("Falso")
+  }
+  ```
