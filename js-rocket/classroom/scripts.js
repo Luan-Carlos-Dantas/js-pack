@@ -1,6 +1,11 @@
 //CONDICIONAIS
-console.log("____ESTRUTURA DE CONDIÇÕES____")
-let age = 25
+let hour = 15
 
-//          condicional:  verdadeiro          falso
-console.log(age >= 18 ? 'Pode dirigir' : 'Não pode dirigir')
+if(hour <= 12){
+  console.log('Bom dia')
+}else if(hour > 12 || hour <= 18){
+  console.log("Boa tarde")
+}
+else{
+  console.log('Boa noite')
+}

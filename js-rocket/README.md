@@ -84,7 +84,12 @@
   ```javascript
   if(condição){
     console.log("Verdadeiro")
+  }else if(condição){
+    console.log("Primeira condição não verdadeira porém não foi false")
   }else{
     console.log("Falso")
   }
+  ```
+  ```javascript
+    console.log(condição ? "Verdadeiro" : "Falso")
   ```
