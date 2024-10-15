@@ -38,3 +38,37 @@
   - Não utilize caracteres especiais, acentuações ou espaçamentos;
   - Crie nomes que dão sentido para variável;
   - Utilize os padrões camelCase ou snake_case;
+
+  ## OPERADORES
+
+  ### OPERADORES ARITMÉTICOS:
+    - + = SOMA
+    - - = SUBTRAÇÃO
+    - * = MULTIPLICAÇÃO
+    - / = DIVISÃO
+    - % = RESTO
+    - ** = POTENCIAÇÃO
+
+  ### OPERADORES DE INCREMENTO E DECREMENTO:
+    - ```javascript
+      let variavel++ || ++variavel
+      ```
+    - ```javascript
+      let variavel-- || --variavel
+      ```
+  ### OPERADORES LÓGICOS:
+    - == - igual a (valores iguais sem distinção de tipos de variáveis)
+    - === - identico a (valores iguais e tipos de variáveis iguais)
+    - != - diferente de (valores diferentes sem distinção de tipos de variáveis)
+    - !== - extritamente diferente de (valores diferentes e tipos de variáveis diferentes)
+    - > - maior que
+    - >= - maior ou igual a
+    - < - menor que
+    - <= - menor ou igual a
+    - <> - diferente
+
+  ### OPERADORES DE ATRIBUIÇÃO:
+    - = - atribuindo um valor
+    - += - incrmento do valor
+    - -= - decremento do valor
+    - *= - multiplica o valor

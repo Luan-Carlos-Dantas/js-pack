@@ -1,13 +1,12 @@
-//TIPOS DE DADOS
-console.log("____TYPE CASTING____")
+//OPERADORES
+console.log("____OPERADORES - INCREMENTO____")
+let a = 10
+let b = 20
 
-let isTrue = true
+// > Maior que
 
-console.log(isTrue)
-console.log(typeof isTrue)
+console.log(b > a)
 
-console.log(isTrue.toString())
-console.log(typeof toString(isTrue))
+// Menos que
 
-console.log(Number(isTrue))
-console.log(typeof Number(isTrue))
+console.log(a < b)
