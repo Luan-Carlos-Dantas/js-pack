@@ -93,3 +93,28 @@
   ```javascript
     console.log(condição ? "Verdadeiro" : "Falso")
   ```
+  ```javascript
+    switch(option){
+      case 1:
+        console.log('Opção 1')
+        break;
+      case 2:
+        console.log('Opção 2')
+        break;
+      default:
+        console.log('Opção padrão')
+        break;
+    }
+  ```
+  ```javascript
+    try{
+      Bloco de código que tentará ser executado
+    }catch(error){
+      Bloco de código que será executado caso o bloco anterior não seja excutado
+    }finally{
+      Bloco de código que será executado independente de ter dado certo ou não
+    }
+  ```
+
+  ## DOM
+  Document Object Model é a representação de dados dos objetos que compõem a estrutura e o conteúdo
